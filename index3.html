@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        header{
+          position: relative; 
+        }
+        ul{
+            list-style: none;
+            
+        }
+        ul li {
+            display: inline;
+            position: relative;
+            top: 100px;
+            font-size: 24px;
+            color: rgb(70, 3, 70);
+                        
+        }
+        ul li + li{
+            padding-left: 15px;
+        }
+        .logo{
+            position: absolute;
+            left: 500px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="images/melhores-tecnologias.svg" alt=" logo">
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contatos</li>
+                <li>Fale Conosco</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
